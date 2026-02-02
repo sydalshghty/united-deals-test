@@ -30,6 +30,8 @@ export default {
         textColor: "#D9D9D9",
         linearColor: "#979797",
         bgColor: "#F3F9FB",
+        iconSearchColor: "#161616",
+        colorPlaceholder: "#666666",
       }
     },
   },
