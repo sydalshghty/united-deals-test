@@ -32,6 +32,8 @@ export default {
         bgColor: "#F3F9FB",
         iconSearchColor: "#161616",
         colorPlaceholder: "#666666",
+        borderColor: "#EDEDED",
+        blueColor: "#1877F2",
       }
     },
   },

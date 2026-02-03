@@ -1,3 +1,4 @@
+import "./cart-style.css";
 function TopHeaderCart() {
     return (
         <section className="top-header-cart w-full h-[42px] bg-bgblack">

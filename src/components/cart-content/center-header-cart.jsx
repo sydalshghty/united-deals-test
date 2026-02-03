@@ -1,10 +1,9 @@
 import iconLogo from "../../assets/icon-logo-cart.svg";
-import { FiUser } from "react-icons/fi";
-import { FiShoppingCart } from "react-icons/fi";
 import searchIcon from "../../assets/Search.svg";
 import listIcon from "../../assets/list.svg";
 import buyIcon from "../../assets/Buy.svg";
 import userIcon from "../../assets/user.svg";
+import "./cart-style.css";
 function CenterHeaderCart() {
     return (
         <section className="w-full h-[90px] center-header-cart">

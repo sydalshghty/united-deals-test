@@ -1,0 +1,31 @@
+/*center header cart style*/
+@media (max-width: 1250px){
+    .center-header-cart .container .sign-in-cart-content .col-user{
+    display: none;
+}
+}
+@media (max-width: 992px){
+    .top-header-cart .container{
+        justify-content: center;
+    }
+    .top-header-cart .container .all-text{
+        display: none;
+    }
+    .center-header-cart .container form{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .center-header-cart{
+        height: 60px;
+    }
+    .center-header-cart .container .col-logo h1{
+        font-size: 27px;
+    }
+}
+@media (max-width: 520px){
+    .center-header-cart .container .col-logo h1{
+        font-size: 22px;
+    }
+}
+
