@@ -22,10 +22,34 @@
     .center-header-cart .container .col-logo h1{
         font-size: 27px;
     }
+    .back-heading-cart .container .back-icon{
+        width: 50px;
+    }
+    .back-heading-cart .container .col-heading h1{
+        font-size: 35px;
+    }
+    .back-heading-cart .container .col-heading p{
+        font-size: 20px;
+    }
 }
 @media (max-width: 520px){
     .center-header-cart .container .col-logo h1{
         font-size: 22px;
+    }
+    .back-heading-cart .container .col-back{
+        margin-bottom: 20px;
+    }
+    .back-heading-cart .container .back-icon{
+        width: 40px;
+    }
+    .back-heading-cart .container .share-icon{
+        width: 20px;
+    }
+    .back-heading-cart .container .col-heading h1{
+        font-size: 25px;
+    }
+    .back-heading-cart .container .col-heading p{
+        font-size: 17px;
     }
 }
 
