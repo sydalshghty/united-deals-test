@@ -3,6 +3,9 @@
     .center-header-cart .container .sign-in-cart-content .col-user{
     display: none;
 }
+.cart-products .container .col-product{
+    gap: 40px;
+}
 }
 @media (max-width: 992px){
     .top-header-cart .container{
@@ -30,6 +33,12 @@
     }
     .back-heading-cart .container .col-heading p{
         font-size: 20px;
+    }
+    .cart-products .container .col-product{
+        gap: 20px;
+    }
+    .cart-products .container .col-product h2{
+        font-size: 13px;
     }
 }
 @media (max-width: 520px){

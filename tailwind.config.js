@@ -34,6 +34,12 @@ export default {
         colorPlaceholder: "#666666",
         borderColor: "#EDEDED",
         blueColor: "#1877F2",
+        textcolorPrimary: "#262626",
+        textcolorLight: "#9D9D9D",
+        colorPrice: "#555555",
+        bgSummary: "#FBFBFB",
+        bgshopnow: "#1877F2",
+        redcolor: "#FF2E00"
       }
     },
   },
