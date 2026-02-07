@@ -4,6 +4,8 @@ import { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import 'swiper/css';
+import 'swiper/css/autoplay';
+
 function ProductsSlider() {
     const swiperRef = useRef(null);
 
@@ -49,31 +51,31 @@ function ProductsSlider() {
                     </div>
                 </div>
                 <div className="mt-5 all-products">
-                    <Swiper
-                        modules={[Autoplay]}
-                        slidesPerView={4}
-                        spaceBetween={20}
-                        speed={500}
-                        loop={true}
-                        autoplay={
-                            { delay: 2000, pauseOnMouseEnter: true }
-                        }
-                        onSwiper={(swiper) => swiperRef.current = swiper}
-                        breakpoints={{
-                            450: { slidesPerView: 1 },
-                            600: { slidesPerView: 1 },
-                            650: { slidesPerView: 2 },
-                            992: { slidesPerView: 2 },
-                            1400: { slidesPerView: 3 },
-                            1600: { slidesPerView: 4 }
-                        }}
-                    >
-                        {allSliderProductsCart.length === 0 ?
-                            <>
-                                <h1>loading data products...</h1>
-                            </>
-                            :
-                            allSliderProductsCart.map((product, index) => {
+                    {allSliderProductsCart.length === 0 ?
+                        <>
+                            <h1>loading data products...</h1>
+                        </>
+                        :
+                        <Swiper
+                            modules={[Autoplay]}
+                            slidesPerView={4}
+                            spaceBetween={20}
+                            speed={500}
+                            loop={true}
+                            autoplay={
+                                { delay: 2000, pauseOnMouseEnter: true }
+                            }
+                            onSwiper={(swiper) => swiperRef.current = swiper}
+                            breakpoints={{
+                                450: { slidesPerView: 1 },
+                                600: { slidesPerView: 1 },
+                                650: { slidesPerView: 2 },
+                                992: { slidesPerView: 2 },
+                                1400: { slidesPerView: 3 },
+                                1600: { slidesPerView: 4 }
+                            }}
+                        >
+                            {allSliderProductsCart.map((product, index) => {
                                 return (
                                     <SwiperSlide key={product.id}>
                                         <div className="flex gap-3 col-product w-[300px]">
@@ -94,9 +96,10 @@ function ProductsSlider() {
                                         </div>
                                     </SwiperSlide>
                                 )
-                            })
-                        }
-                    </Swiper>
+                            })}
+                        </Swiper>
+                    }
+
                 </div>
             </div>
         </section>

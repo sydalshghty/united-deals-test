@@ -14,13 +14,13 @@ function TopHeader() {
                 <div className="col-discount">
                     <img src={discountImg} alt="discount-img" />
                 </div>
-                <Link 
+                <Link
                     to="Featured-Products"
                     smooth={true}
                     duration={500}
                 >
                     <div className="flex items-center col-shop w-[156px] h-12 bg-yellowColor gap-2 pl-6 pr-6 rounded-sm cursor-pointer">
-                        <a href="#" className="text-sm font-bold text-grayColor tracking-[0%] uppercase">Shop now</a>
+                        <span className="text-sm font-bold text-grayColor tracking-[0%] uppercase">Shop now</span>
                         <img src={arrowRight} alt="arrow-right" />
                     </div>
                 </Link>
