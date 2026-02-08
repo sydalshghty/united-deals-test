@@ -14,7 +14,7 @@ function CartProducts() {
     }
 
     return (
-        <section className="w-full h-full cart-products mb-[72px]">
+        <section className="w-full h-full cart-products mb-[72px] overflow-hidden">
             <div className="container min-w-[100%] h-full flex gap-[60px] flex-wrap">
                 <div className="all-products-cart">
                     <div className="col-number-items flex items-center gap-[5px] mb-[33px]">
@@ -27,7 +27,7 @@ function CartProducts() {
                                 <div className="image-product min-w-[90px] h-[72px] shadow-lg p-[2px] rounded-[10px] border-[1px] border-textColor flex justify-center items-center">
                                     <img src={productImgTest} alt="img-product" className="object-contain w-full h-full" />
                                 </div>
-                                <h2 className="text-[15px] font-bold text-textcolorPrimary">2 Pieces Mango set- Regular fit</h2>
+                                <h2 className="text-[15px] font-bold text-textcolorPrimary">2 Pieces Mango</h2>
                             </div>
                             <span className="price-product text-[15px] text-colorPrice">₹25.99</span>
                             <div className="flex items-center col-quantity w-[105px] h-[42px] pt-[10px] pb-[10px] pl-[16px] pr-[16px] border-[1px] border-textColor rounded-[4px] gap-[10px] justify-center">
