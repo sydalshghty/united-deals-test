@@ -7,6 +7,7 @@ import { FaStar } from "react-icons/fa6";
 import { useState, useEffect } from "react";
 import { Element } from "react-scroll";
 import { OrbitProgress } from "react-loading-indicators";
+import { Link } from "react-router-dom";
 function FeaturedProducts() {
     const [activeCategory, setActiveCategory] = useState("All Product");
     const [allProducts, setAllProducts] = useState([]);
@@ -83,9 +84,11 @@ function FeaturedProducts() {
                                                             <div className="col-cart  w-[48px] h-[48px] p-3 bg-white rounded-full flex justify-center items-center cursor-pointer">
                                                                 <FiShoppingCart className="w-5 h-5 text-black" />
                                                             </div>
-                                                            <div className="col-view  w-[48px] h-[48px] p-3 bg-white rounded-full flex justify-center items-center cursor-pointer">
-                                                                <FiEye className="w-5 h-5 text-black" />
-                                                            </div>
+                                                            <Link to={"/Product"}>
+                                                                <div className="col-view  w-[48px] h-[48px] p-3 bg-white rounded-full flex justify-center items-center cursor-pointer">
+                                                                    <FiEye className="w-5 h-5 text-black" />
+                                                                </div>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     <div className="flex flex-col gap-2 information-product">

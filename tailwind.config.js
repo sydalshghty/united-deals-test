@@ -39,7 +39,8 @@ export default {
         colorPrice: "#555555",
         bgSummary: "#FBFBFB",
         bgshopnow: "#1877F2",
-        redcolor: "#FF2E00"
+        redcolor: "#FF2E00",
+        colorCategories: "#222222",
       }
     },
   },
