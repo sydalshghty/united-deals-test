@@ -1,0 +1,4 @@
+.categories-section .container .all-categories .col-category.active{
+    background-color: black;
+    color: white;
+}

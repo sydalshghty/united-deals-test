@@ -41,6 +41,7 @@ export default {
         bgshopnow: "#1877F2",
         redcolor: "#FF2E00",
         colorCategories: "#222222",
+        bgbutton: "#313131",
       }
     },
   },

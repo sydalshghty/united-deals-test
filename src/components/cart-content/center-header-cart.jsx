@@ -4,14 +4,17 @@ import listIcon from "../../assets/list.svg";
 import buyIcon from "../../assets/Buy.svg";
 import userIcon from "../../assets/user.svg";
 import "./cart-style.css";
+import { Link } from "react-router-dom";
 function CenterHeaderCart() {
     return (
         <section className="w-full h-[90px] center-header-cart">
             <div className="container min-w-[100%] h-full flex justify-between items-center">
-                <div className="flex items-center gap-5 col-logo">
-                    <img src={iconLogo} alt="icon-logo-cart" className="cursor-pointer" />
-                    <h1 className="text-[32px] font-bold text-linearColor">United Deals</h1>
-                </div>
+                <Link to={"/"}>
+                    <div className="flex items-center gap-5 col-logo">
+                        <img src={iconLogo} alt="icon-logo-cart" className="cursor-pointer" />
+                        <h1 className="text-[32px] font-bold text-linearColor">United Deals</h1>
+                    </div>
+                </Link>
                 <form action="" className="flex items-center w-[35%] h-12 bg-bgColor rounded-lg pl-3 pr-3 gap-3">
                     <button type="submit">
                         <img src={searchIcon} alt="search-icon" />
@@ -24,10 +27,12 @@ function CenterHeaderCart() {
                         <img src={userIcon} alt="user-icon" />
                         <p className="text-base text-colorPlaceholder">Sign Up/Sign In</p>
                     </div>
-                    <div className="flex gap-[6px] col-cart items-center cursor-pointer">
-                        <img src={buyIcon} alt="buy-icon" />
-                        <p className="text-base text-colorPlaceholder">Cart</p>
-                    </div>
+                    <Link to={"/cart"}>
+                        <div className="flex gap-[6px] col-cart items-center cursor-pointer">
+                            <img src={buyIcon} alt="buy-icon" />
+                            <p className="text-base text-colorPlaceholder">Cart</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </section>

@@ -84,7 +84,7 @@ function FeaturedProducts() {
                                                             <div className="col-cart  w-[48px] h-[48px] p-3 bg-white rounded-full flex justify-center items-center cursor-pointer">
                                                                 <FiShoppingCart className="w-5 h-5 text-black" />
                                                             </div>
-                                                            <Link to={"/Product"}>
+                                                            <Link to={`/Product/${product.id}`}>
                                                                 <div className="col-view  w-[48px] h-[48px] p-3 bg-white rounded-full flex justify-center items-center cursor-pointer">
                                                                     <FiEye className="w-5 h-5 text-black" />
                                                                 </div>
