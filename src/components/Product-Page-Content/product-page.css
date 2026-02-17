@@ -2,3 +2,18 @@
     background-color: black;
     color: white;
 }
+.product-information-section .container .col-cart{
+    transition: background-color 0.5s ease;
+}
+.product-information-section .container .col-cart:hover{
+    background-color: #1877F2;
+    border: none;
+}
+.product-information-section .container .col-cart:hover svg,
+.product-information-section .container .col-cart:hover p{
+    color: white;
+}
+.product-information-section .container .col-cart svg,
+.product-information-section .container .col-cart p{
+    transition: color 0.5s ease;
+}

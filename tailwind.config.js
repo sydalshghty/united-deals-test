@@ -42,6 +42,9 @@ export default {
         redcolor: "#FF2E00",
         colorCategories: "#222222",
         bgbutton: "#313131",
+        starColor: "#FCBD01",
+        success500: "#2DB224",
+        colorprice: "#2EB100",
       }
     },
   },
