@@ -3,6 +3,7 @@ import CenterHeaderCart from "../components/cart-content/center-header-cart";
 import CategoriesProducts from "../components/Product-Page-Content/categories-Products";
 import NavLinksProduct from "../components/Product-Page-Content/nav-links-product";
 import ProductInformation from "../components/Product-Page-Content/product-information";
+import Footer from "../components/footer/footer";
 function ProductPage() {
     return (
         <>
@@ -11,6 +12,7 @@ function ProductPage() {
             <CategoriesProducts />
             <NavLinksProduct />
             <ProductInformation />
+            <Footer />
         </>
     )
 }

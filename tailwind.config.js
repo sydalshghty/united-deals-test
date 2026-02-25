@@ -45,6 +45,7 @@ export default {
         starColor: "#FCBD01",
         success500: "#2DB224",
         colorprice: "#2EB100",
+        colorspan: "#7D8E96",
       }
     },
   },
