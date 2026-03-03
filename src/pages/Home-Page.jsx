@@ -1,4 +1,5 @@
 import Header from "../components/header/Header";
+import BannerSlider from "../components/New-Home-Component/banners-slider";
 import Banner from "../components/banners.jsx/banner";
 import Freedelivery from "../components/freedelivery/freedelivery";
 import FeaturedProducts from "../components/featured-products/featured-products";
@@ -13,6 +14,7 @@ function HomePage() {
     return (
         <>
             <Header />
+            <BannerSlider />
             <Banner />
             <Freedelivery />
             <FeaturedProducts />
