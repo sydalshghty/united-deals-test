@@ -10,13 +10,15 @@ import NewAppleBanner from "../components/new-apple-banners/new-apple-banner";
 import FlashProducts from "../components/flash-Products/flash-products";
 import LatestNews from "../components/latest-news/latest-news";
 import Footer from "../components/footer/footer";
+
+import TodaysDealsProducts from "../components/New-Home-Component/todays-deals-products";
 function HomePage() {
     return (
         <>
             <Header />
-            <BannerSlider />
             <Banner />
             <Freedelivery />
+            <TodaysDealsProducts />
             <FeaturedProducts />
             <NewAppleBanner />
             <BestProducts />

@@ -46,6 +46,10 @@ export default {
         success500: "#2DB224",
         colorprice: "#2EB100",
         colorspan: "#7D8E96",
+        headingcolor: "#232321",
+        blackcolor: "#0A0A0A",
+        bgImgProduct: "#ECEDEF",
+        colorpriceproduct: "#FFA52F",
       }
     },
   },

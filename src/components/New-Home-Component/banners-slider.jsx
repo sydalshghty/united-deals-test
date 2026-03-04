@@ -20,6 +20,7 @@ function BannerSlider() {
         { id: 7, img: banner7 },
         { id: 8, img: banner8 }
     ]
+
     return (
         <section className="w-full h-full banners-slider-departament">
             <Swiper
