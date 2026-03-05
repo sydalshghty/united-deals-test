@@ -50,6 +50,7 @@ export default {
         blackcolor: "#0A0A0A",
         bgImgProduct: "#ECEDEF",
         colorpriceproduct: "#FFA52F",
+        bgCategory: "#F5F5F5",
       }
     },
   },
